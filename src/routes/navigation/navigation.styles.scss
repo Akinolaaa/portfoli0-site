@@ -1,0 +1,12 @@
+.nav-btns {
+  position: fixed;
+  //z-index: 10;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}

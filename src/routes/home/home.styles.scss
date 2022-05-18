@@ -1,0 +1,32 @@
+.home-container {
+  min-height: 100vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 3rem 4rem;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  color: var(--color-white);
+  overflow: hidden;
+  border: 2px solid red;
+  .home-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+    border: 2px solid green;
+    .left-home-content {
+      display: flex;
+      align-items: center;
+      position: relative;
+      border: 2px solid yellow;
+    }
+    .right-home-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 12rem;
+      border: 2px solid orangered;
+    }
+  }
+}
