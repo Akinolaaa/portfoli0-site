@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const PageContainer = styled.section`
-  min-height: 85vh;
+  min-height: 100vh;
   position: relative;
   left: 0;
   right: 0;
@@ -11,8 +11,9 @@ export const PageContainer = styled.section`
   align-items: flex-start; */
   color: var(--color-white);
   overflow: hidden;
-  border: 2px solid red;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   animation: scaleAnimation 1s ease-in-out;
   border: 2px solid red;
   @keyframes scaleAnimation {

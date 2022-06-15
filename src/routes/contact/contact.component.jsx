@@ -8,8 +8,8 @@ const Contact = () => {
 
   return (
     <div>
-    <Title fronttxt={'Contact Me'} backtxt={'Contact Me'}  />
     <PageContainer>
+      <Title fronttxt={'Contact Me'} backtxt={'Contact Me'}  />
       <div class="contact-container">
         <h4>Contact me here</h4>
         <p>

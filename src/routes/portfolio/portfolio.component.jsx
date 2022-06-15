@@ -8,8 +8,8 @@ const Portfolio = () => {
 
   return (
     <div >
+    <PageContainer >
       <Title fronttxt={'My Portfolio'} backtxt={'Projects'} />
-      <PageContainer >
         <PortfolioItems />
       </PageContainer>
     </div>
