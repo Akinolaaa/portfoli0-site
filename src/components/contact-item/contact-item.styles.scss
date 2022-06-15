@@ -1,0 +1,19 @@
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    margin: 0.3rem 0;
+    padding: 0;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+    :last-child {
+      margin-left: .5rem;
+    }
+    i {
+      font-size: 1.3rem;
+    }
+  }
+}

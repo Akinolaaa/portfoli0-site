@@ -1,14 +1,14 @@
 import './button.styles.scss';
 
-const Button = () => {
+const Button = ({text}) => {
 
   return (
-    <div className="btn-con">
+    <a className="btn-con" href='https://www.facebook.com'>
       <div class="main-btn">
-        <span class="btn-text">Download CV</span>
+        <span class="btn-text">{text}</span>
         <span class="btn-icon"><i class="fas fa-download"></i></span>
       </div>
-    </div>
+    </a>
   )
 }
 

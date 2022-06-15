@@ -15,10 +15,10 @@ const navigations = {
     id: 3,
     logo: "fas fa-briefcase",
   },
-  blogs: {
+  /* blogs: {
     id: 4,
     logo: "fas fa-newspaper",
-  },
+  }, */
   contact: {
     id:5,
     logo: "fas fa-envelope-open",

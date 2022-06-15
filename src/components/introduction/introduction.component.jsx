@@ -8,7 +8,7 @@ const Introduction = () => {
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatem sint similique ea quo neque delectus assumenda corrupti rem amet iste ipsum rerum reiciendis fugit sequi, awt voluptatum, quam aut.
       </p>
-      <Button />
+      <Button text='Download CV'/>
     </div>
   )
 }
