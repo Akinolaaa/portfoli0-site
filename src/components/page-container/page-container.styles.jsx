@@ -12,7 +12,6 @@ export const PageContainer = styled.section`
   color: var(--color-white);
   overflow: hidden;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   animation: scaleAnimation 1s ease-in-out;
   border: 2px solid red;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ProgressBar = styled.div`
   display: flex;
   flex-direction: column;
+  padding: .5rem;
   .prog-title {
     text-transform: uppercase;
     font-weight: 500;
