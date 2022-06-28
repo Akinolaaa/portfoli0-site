@@ -1,5 +1,6 @@
 .about-text {
   padding-right: 5rem;
+  padding-top: 3rem;
   p {
     line-height: 2rem;
     padding: 1rem;
@@ -9,10 +10,7 @@
     font-size: 2rem;
     text-transform: uppercase;
   }
-}
-
-.about-section-con {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0 2rem;
+  @media only screen and (max-width: 630px) {
+    padding: 2rem 0.8rem;
+  }
 }

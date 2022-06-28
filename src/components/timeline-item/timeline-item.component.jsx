@@ -1,16 +1,17 @@
 import './timeline-item.styles.scss';
 
-const TimelineItem = () => {
-
+const TimelineItem = ({job}) => {
+  const { start, end, role, organization, text } = job;
+  
   return(
     <div class="timeline-item">
       <div class="tl-icon">
         <i class="fas fa-briefcase"></i>
       </div>
-      <p class="tl-duration">2010 - present</p>
-      <h5>Web developer <span> - Microsoft</span></h5>
+      <p class="tl-duration">{start} - {end}</p>
+      <h5>{role} <span> - {organization}</span></h5>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aperiam?
+        {text}
       </p>
     </div>
   )

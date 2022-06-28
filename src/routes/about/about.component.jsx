@@ -4,13 +4,12 @@ import Title from '../../components/title/title.component';
 import { PageContainer } from '../../components/page-container/page-container.styles';
 import ExperienceTags from '../../components/experience-tags/experience-tags.component';
 import AboutSectionHeader from '../../components/about-section-header/about-section-header.component';
-import SkillProgressBar from '../../components/skill-progress-bar/skill-progress-bar.component';
-import TimelineItem from '../../components/timeline-item/timeline-item.component';
+import Timeline from '../../components/timeline/timeline.component';
+import Skills from '../../components/skills/skills.component';
 
 const About = () => {
 
   return (
-    <div>
     <PageContainer>
       <Title fronttxt={'About Me'} backtxt={'About Me'}/>
         <div className='about-text'>
@@ -21,18 +20,10 @@ const About = () => {
         </div>
         <ExperienceTags />
         <AboutSectionHeader title={'My Skills'}/>
-        <div className='about-section-con'>
-          <SkillProgressBar title={'React'} skillLevel={'100%'} />
-          <SkillProgressBar title={'Vibes'} skillLevel={'80%'}/>
-          <SkillProgressBar title={'React'} skillLevel={'100%'} />
-          <SkillProgressBar title={'Vibes'} skillLevel={'80%'}/>
-        </div>
+        <Skills />
         <AboutSectionHeader title={'My Timeline'}/>
-        <div className='about-section-con'>
-          <TimelineItem />
-        </div>
-        </PageContainer>
-    </div>
+        <Timeline />
+    </PageContainer>
   )
 }
 
