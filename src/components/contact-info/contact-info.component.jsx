@@ -31,7 +31,7 @@ const INFO = [
 const ContactInfo = () => {
 
   return (
-    <div>
+    <div className='contact-info-container'>
     {
       INFO.map(({key, icon, left, right}) => 
         <ContactItem key={key}
