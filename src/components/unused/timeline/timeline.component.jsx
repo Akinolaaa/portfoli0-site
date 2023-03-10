@@ -1,5 +1,5 @@
 import './timeline.styles.scss'
-import { TIMELINE } from '../../information';
+import { TIMELINE } from '../../../information';
 import TimelineItem from '../timeline-item/timeline-item.component'
 
 const Timeline = () => {

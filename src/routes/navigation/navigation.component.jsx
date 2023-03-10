@@ -1,6 +1,5 @@
 import './navigation.styles.scss';
 import NavButton from '../../components/nav-button/nav-button.component';
-import { Outlet } from 'react-router-dom';
 
 const navigations = {
   home: {
@@ -26,25 +25,20 @@ const navigations = {
 }
 
 const Navigation = () => {
-
-  return (
-    <>
-      <Outlet />
-      <div className="nav-btns">
-        {
-          Object.keys(navigations).map(button => {
-            return (
-              <NavButton 
-                logo={navigations[button].logo}
-                key={navigations[button].id}
-                name={button==='home'? '': button}
-              />
-            )
-          })
-        }
-      </div>
-    </>
-  )
+  <div className="nav-btns">
+    <p>Why wiont you navigate</p>
+    {
+      Object.keys(navigations).map(button => {
+        return (
+          <NavButton 
+            logo={navigations[button].logo}
+            key={navigations[button].id}
+            name={button==='home'? '': button}
+          />
+        )
+      })
+    }
+  </div>
 }
 
 export default Navigation;

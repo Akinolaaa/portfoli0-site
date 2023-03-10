@@ -15,7 +15,8 @@ const NavButton = ({ logo, name }) => {
   return (
     <div className={className} data-id={name} onClick={navHandler}>
       <i className={logo}></i>
-    </div>) 
+    </div>
+  ) 
 }
 
 export default NavButton;

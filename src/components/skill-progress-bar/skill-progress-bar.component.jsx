@@ -8,7 +8,7 @@ const SkillProgressBar = ({title, skillLevel}) => {
       <div class="progress-con">
         <p class="prog-text">{skillLevel}</p>
         <div class="progress">
-          <span class="skill-level"></span>
+          <span className="skill-level"></span>
         </div>
       </div>
     </ProgressBar>

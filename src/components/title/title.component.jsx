@@ -1,12 +1,12 @@
 import './title.styles.scss'
 
-const Title = ({fronttxt, backtxt}) => {
+const Title = ({fronttxt}) => {
   const [A, B] = fronttxt.split(' ');
   return (
-    <div class="main-title">
-      <h2>
-        {A} <span>{B}</span><span class="bg-text">{backtxt}</span>
-      </h2>
+    <div className="main-title">
+      <div className='text'>
+        <h2> {A} <span>{B}</span></h2>
+      </div>
     </div>
   )
 }

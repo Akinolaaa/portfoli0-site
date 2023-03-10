@@ -1,17 +1,18 @@
-import './contact-item.styles.scss';
 
 const ContactItem = ({icon, left, right}) => {
 
   return(
-    <div className="contact-item">
-      <div className="icon">
+    <tr>
+      <td style={{padding: `.5rem`}}>
         <i className={icon}></i>
-        <span>{left}</span>
-      </div>
-      <p>
-        <span>: {right}</span>
-      </p>
-    </div>
+      </td>
+      <td> 
+        <span>{left}:</span>
+      </td>
+      <td>
+        <span> {right}</span>
+      </td>
+    </tr>
   )
 }
 

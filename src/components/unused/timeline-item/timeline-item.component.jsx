@@ -4,11 +4,11 @@ const TimelineItem = ({job}) => {
   const { start, end, role, organization, text } = job;
   
   return(
-    <div class="timeline-item">
-      <div class="tl-icon">
-        <i class="fas fa-briefcase"></i>
+    <div className="timeline-item">
+      <div className="tl-icon">
+        <i className="fas fa-briefcase"></i>
       </div>
-      <p class="tl-duration">{start} - {end}</p>
+      <p className="tl-duration">{start} - {end}</p>
       <h5>{role} <span> - {organization}</span></h5>
       <p>
         {text}

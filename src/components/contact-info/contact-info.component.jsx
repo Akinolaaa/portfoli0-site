@@ -1,6 +1,4 @@
 import ContactItem from '../contact-item/contact-item.component';
-import './contact-info.styles.scss'
-
 const INFO = [
   {
     key: 1,
@@ -31,15 +29,17 @@ const INFO = [
 const ContactInfo = () => {
 
   return (
-    <div className='contact-info-container'>
-    {
-      INFO.map(({key, icon, left, right}) => 
-        <ContactItem key={key}
-          icon={icon} left={left} right={right}
-        />
-      )
-    }
-    </div>
+    <table style={{width:'55%'}}>
+      <tbody>
+      {
+        INFO.map(({key, icon, left, right}) => 
+          <ContactItem key={key}
+            icon={icon} left={left} right={right}
+          />
+        )
+      }
+      </tbody>
+    </table>
   )
 }
 

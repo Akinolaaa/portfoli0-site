@@ -1,0 +1,16 @@
+.ic {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  border-radius: 50%;
+  padding: 1rem;
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+  i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+}
